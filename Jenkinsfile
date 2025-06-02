@@ -16,7 +16,7 @@ stages {
     stage('Checkout') {
         steps {
             git branch: 'main', 
-                url: 'https://github.com/your-repo/simple-java-app.git'
+                url: 'https://github.com/dilip10jan/Java-based-Jenkins.git'
         }
     }
     
